@@ -4,3 +4,20 @@ LDFLAGS = -lglfw -lvulkan -ldl -lpthread
 
 VulkanTest: main.cpp
 	g++ $(CFLAGS) -o VulkanTest main.cpp $(LDFLAGS)
+
+
+
+
+
+
+
+
+
+
+# to do
+# vulcan installation
+# Gflw 
+# glm 
+# maybe using docker / CMake for that 
+#		  brew reinstall glfw
+#		  brew reinstall glm
